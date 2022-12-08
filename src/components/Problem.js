@@ -82,13 +82,13 @@ const Problem = () => {
     <div className="center">
       <Maze problem={true} arr={unqueArr} />
 
-      <button onClick={() => setUneq([...m])}>Change Maze</button>
+      <button onClick={() => setUneq([...m])}>Generate Maze</button>
       <br />
 
       <button onClick={() => setData(res)}>Find path</button>
 
       <h4 style={StyleSheet}>
-        Solution Avilabe: {solNo}{" "}
+        Count Path: {solNo}{" "}
       </h4>
 
       <Solution sol={resData} />
